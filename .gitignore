@@ -1,0 +1,22 @@
+# --- Ren'Py generated / runtime ---
+*.rpyc
+*.rpymc
+*.rpyb
+errors.txt
+log.txt
+traceback.txt
+tmp/
+game/saves/
+game/cache/
+
+# --- Hide the readable story source; ship only the compiled bytecode so the
+#     game still runs but script.rpy isn't browsable in the repo ---
+game/script.rpy
+!game/script.rpyc
+
+# --- Game art is shipped packed in images.rpa (committed); hide loose PNGs ---
+game/images/
+
+# --- Python ---
+__pycache__/
+*.pyc
